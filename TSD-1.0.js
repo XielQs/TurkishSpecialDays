@@ -39,7 +39,7 @@ class TSD {
 			throw new Error("Config must be an object");
 		}
 		this.config = config || {
-			top: "0px",
+			top: "0",
 			bottom: "unset",
 			left: "0px",
 			right: "unset",
